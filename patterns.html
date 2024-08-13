@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Google Form</title>
+    </head>
+    <body>
+        <center><h1>Patterns Along with Div tag and emojis</h1></center>
+        <center><h3>Iam going to join in 10K coders &#127970; and want to become a developer &#128187;</h3>
+        <h4>Happy birthday &#127874;</h4>
+        <h4>Lets celebrate &#127881;&#127882;</h4></center>
+        <fieldset>
+            <legend>Register here</legend>
+            <form action="./document.txt">
+                <pre>
+                    <center><div style="background-color:green;">
+                    <label for="Fullname">Enter Name:-</label>
+                    <input type="text" placeholder="Enter Name here" id="Fullname" pattern ="[a-t 0-5 A-G]{4,6}"required/>
+                    </div></center>
+
+                    <center><div style="background-color:rgb(32, 155, 189);">
+                    <label for="password">Enter password:-</label>
+                    <input type="password" placeholder="Enter Password here"id="password" pattern="[A-Z 0-9 a-x]{7,8}"required />
+                    </div></center>
+
+                    <center><div style="background-color:rgb(235, 168, 204);">
+                    <label for="Email">Enter Email:-</label>
+                    <input type="Email" placeholder="Enter Email here"id="Email" pattern="[a-z0-9.\-]+@[a-n]+\.[a-z]{2,}" required/>
+                    </div></center>
+
+                    <center><div style="background-color:rgb(199, 230, 46);">
+                    <label for="PhoneNumber">Enter Number:-</label>
+                    <input type="Phn" placeholder="Enter Name here"id="PhoneNumber" required/>
+                     </div></center>
+
+                    <center><div style="background-color:rgb(164, 100, 197);">
+                    <label for="Apatite">Choose your food:--</label>
+                    <select name="Food" id="Apatite" style="width:170px;">
+                        <option value="">select dish</option>
+                        <option value="biryani" selected>biryani</option>
+                        <option value="drink">drink</option>
+                        <option value="tifin" disabled>tiffin</option>
+                        <option value="tea">tea</option>
+                    </select>
+                    </div></center>
+                    
+                    <center><div style="background-color:rgb(234, 90, 22);">
+                    <label>Select Timings:--</label>
+                    <input type="text" list="Timings"/>
+                    <datalist id="Timings">
+                        <option value="8:30-10:00">8:30-10:00</option>
+                        <option value="10:30-12:00">10:30-12:00</option>
+                        <option value="2:30-4:00">2:30-4:00</option>
+                        <option value="4:30-6:00">4:30-6:00</option>
+                    </datalist>
+                    </div></center>
+
+                    <center><div style="background-color:rgb(114, 198, 103);">
+                    <label>Textarea:--</label>
+                    <textArea rows="10" colums="20" readonly >
+                        This webpage is designed
+                        inorder to highlight the 
+                        div tag in registration 
+                        form
+                    </textArea>
+                    </div></center>
+
+                    <center><div style="background-color:rgb(223, 18, 145);">
+                    <input type="file" multiple/>
+                    </div></center>
+
+                    <center><div style="background-color:rgb(183, 196, 254);">
+                    <input type="date"/>
+                    </div></center>
+    
+                    <center><div style="background-color:rgb(252, 4, 4);">
+                    <input type="radio" id="gender1" name="gender" value="1">
+                    <label for="gender1">Male</label><br>
+                    <input type="radio" id="gender2" name="gender" value="2">
+                    <label for="gender2">Female</label><br>
+                    </div></center>
+            
+                    <center><input type="checkbox">I agree to<a href="">Terms</a>and<a href="">Conditions</a></center>
+    
+                    <center><button type="Submit">Submit</button></center>
+    
+                </pre>
+            </form>
+        </fieldset>
+    </body>
+</html>
